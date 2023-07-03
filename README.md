@@ -1,6 +1,6 @@
-# SVG-Logo-Maker
+# Object-oriented-Programming-Challenge-SVG-Logo-Maker
 
-[![MIT License](https://opensource.org/licenses/MIT)]
+![MIT License](https://opensource.org/licenses/MIT)
 
 ## Table of Contents
 
@@ -85,7 +85,7 @@ As of now there is one test suite with three tests. The test suite is checking f
 
 ## License
 
-[MIT License](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Questions
 
