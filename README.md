@@ -1,6 +1,6 @@
-# SVG-Logo-Maker
+# Object-oriented-Programming-Challenge-SVG-Logo-Maker
 
-![MIT License](https://opensource.org/licenses/MIT)
+[![MIT License](https://opensource.org/licenses/MIT)]
 
 ## Table of Contents
 
