@@ -1,7 +1,6 @@
 # SVG-Logo-Maker
-Week-10 Challenge
 
-[![License: MIT]
+![MIT License](https://opensource.org/licenses/MIT)
 
 ## Table of Contents
 
@@ -86,7 +85,7 @@ As of now there is one test suite with three tests. The test suite is checking f
 
 ## License
 
-NOTICE: This application is covered under the MIT License
+[MIT License](https://opensource.org/licenses/MIT)
 
 ## Questions
 
