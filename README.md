@@ -35,7 +35,7 @@ This application was built as a way to allow freelance web developers to create 
 
 ## Screenshots
 
-Logo Generation
+
 
 
 
