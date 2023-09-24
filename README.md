@@ -5,18 +5,6 @@
 ## Description:
 The application enables users to enter inputs into a inquirer prompt in order to generate a logo "logo.svg" file which contains the users desired results as an SVG image.
 
-## Table of Contents:
-- [Overview](#Overview)
-- [The Challenge](#The-Challenge)
-- [Usage Information](#Usage-Information)
-- [Installation Process](#Installation-Process)
-- [Built With](#Built-With)
-- [What I Learned](#What-I-Learned)
-- [Continued Development](#Continued-Development)
-- [License](#License)
-- [Author](#Author)
-- [Acknowledgments](#Acknowledgments)
-
 # Overview
 
 ## The Challenge:
