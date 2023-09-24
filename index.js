@@ -59,3 +59,17 @@ function writeToFile(fileName, data) {
         console.log("Congratulations, you have Generated a logo.svg!");
     });
 }
+async function init() {
+  console.log("Starting init");
+var svgString = "";
+var svg_file = "logo.svg";
+
+  // Prompt the user for answers
+  const answers = await inquirer.prompt(questions);
+
+//user text
+var user_text = "";
+if (answers.text.length > 0 && answers.text.length < 4) {
+  // 1-3 chars, valid entry
+  user_text = answers.text;
+  
