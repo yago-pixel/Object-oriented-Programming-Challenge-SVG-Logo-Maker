@@ -78,3 +78,23 @@ if (answers.text.length > 0 && answers.text.length < 4) {
   console.log("Invalid user text field detected! Please enter 1-3 Characters, no more and no less");
       return;
 }
+console.log("User text: [" + user_text + "]");
+	//user font color
+	user_font_color = answers["text-color"];
+	console.log("User font color: [" + user_font_color + "]");
+	//user shape color
+	user_shape_color = answers.shape;
+	console.log("User shape color: [" + user_shape_color + "]");
+	//user shape type
+	user_shape_type = answers["pixel-image"];
+	console.log("User entered shape = [" + user_shape_type + "]");
+	
+	//user shape
+	let user_shape;
+	if (user_shape_type === "Square" || user_shape_type === "square") {
+		user_shape = new Square();
+		console.log("User selected Square shape");
+	}
+	else if (user_shape_type === "Circle" || user_shape_type === "circle") {
+		user_shape = new Circle();
+		console.log("User selected Circle shape");
