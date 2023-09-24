@@ -38,9 +38,9 @@ THEN I am shown a 300x200 pixel image that matches the criteria I entered
 
 ## Screenshots:
 ### Figure 1. Command line application
-![](Screenshot 2023-09-24 024752.png) 
+![](images\Screenshot 2023-09-24 024752.png) 
 ### Figure 3. Generated "logo.svg" file
-![](Screenshot 2023-09-24 024941.png)
+![](images\Screenshot 2023-09-24 024941.png)
 
 
 ## Usage Instructions
