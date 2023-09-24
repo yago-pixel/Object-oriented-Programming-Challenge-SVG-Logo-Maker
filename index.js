@@ -98,3 +98,32 @@ console.log("User text: [" + user_text + "]");
 	else if (user_shape_type === "Circle" || user_shape_type === "circle") {
 		user_shape = new Circle();
 		console.log("User selected Circle shape");
+  }
+	else if (user_shape_type === "Circle" || user_shape_type === "circle") {
+		user_shape = new Circle();
+		console.log("User selected Circle shape");
+	}
+	else if (user_shape_type === "Triangle" || user_shape_type === "triangle") {
+		user_shape = new Triangle();
+		console.log("User selected Triangle shape");
+	}
+	else {
+		console.log("Invalid shape!");
+	}
+	user_shape.setColor(user_shape_color);
+
+	// Create a new Svg instance and add the shape and text elements to it
+	var svg = new Svg();
+	svg.setTextElement(user_text, user_font_color);
+	svg.setShapeElement(user_shape);
+	svgString = svg.render();
+	
+	//Print shape to log
+	console.log("Displaying shape:\n\n" + svgString);
+	//document.getElementById("svg_image").innerHTML = svgString;
+
+	console.log("Shape generation complete!");
+	console.log("Writing shape to file...");
+	writeToFile(svg_file, svgString); 
+}
+init()
