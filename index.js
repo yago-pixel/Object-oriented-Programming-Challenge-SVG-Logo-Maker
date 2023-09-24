@@ -73,3 +73,8 @@ if (answers.text.length > 0 && answers.text.length < 4) {
   // 1-3 chars, valid entry
   user_text = answers.text;
   
+} else {
+  // 0 or 4+ chars, invalid entry
+  console.log("Invalid user text field detected! Please enter 1-3 Characters, no more and no less");
+      return;
+}
