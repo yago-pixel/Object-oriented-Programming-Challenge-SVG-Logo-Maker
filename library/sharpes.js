@@ -1,24 +1,17 @@
-const filesystem = require('./filesystem')
-const inquirer = require("inquirer");
-const {Circle, Square, Triangle} = require("./index.js");
-// Imports the graceful-fs, inquirer, Circle, Square, and Triangle modules.
-// Defines a Svg class that has a constructor with three methods for rendering and setting the text and shape elements in the SVG string.
 
-class Svg{
-    constructor(){
-        this.textElement = ''
-        this.shapeElement = ''
-    }
-    render(){
-
-        return `<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="300" height="200">${this.shapeElement}${this.textElement}</svg>`
-    }
-    setTextElement(text,color){
-        this.textElement = `<text x="150" y="125" font-size="60" text-anchor="middle" fill="${color}">${text}</text>`
-    }
-    setShapeElement(shape){
-        this.shapeElement = shape.render()
-
-    }
+class Shape{
+    // Defines a class called Shape which has a constructor intializing 'color' and sets the 'color' value.
     
-}
+        constructor(){
+            this.color=''
+        }
+        setColor(color){
+            this.color=(color);
+        }
+    }
+    // Defines a Circle class that extends Shape and renders an SVG Circle with position, size, and fill color based on the current instance's properties.
+    class Circle extends Shape{
+        render(){
+            return `<circle cx="50%" cy="50%" r="100" height="100%" width="100%" fill="${this.color}">`
+        }
+        
