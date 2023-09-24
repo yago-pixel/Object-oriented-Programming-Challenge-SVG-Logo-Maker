@@ -1,5 +1,5 @@
-const inquirer = require(./Users/yagol/OneDrive/Área de Trabalho/assignments/Object-oriented-Programming-Challenge-SVG-Logo-Maker/.git/);
-const {Circle, Square, Triangle} = require("./library/shapes");
+const inquirer = require("inquirer");
+const {Circle, Square, Triangle} = require("./library/sharpes");
 const { questions } = require("./questions");
 const { Svg } = require('./Svg');
 // Function to write data to file
