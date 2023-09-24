@@ -36,6 +36,13 @@ WHEN I open the `logo.svg` file in a browser
 THEN I am shown a 300x200 pixel image that matches the criteria I entered
 ```
 
+## Screenshots:
+### Figure 1. Command line application
+![](Screenshot 2023-09-24 024752.png) 
+### Figure 3. Generated "logo.svg" file
+![](Screenshot 2023-09-24 024941.png)
+
+
 ## Usage Instructions
 1. Open the cloned repository in any source code editor e.g. Visual Studio Code.
 2. Open integrated terminal on index.js
