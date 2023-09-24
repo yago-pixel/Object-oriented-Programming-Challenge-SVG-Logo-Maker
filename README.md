@@ -57,3 +57,34 @@ THEN I am shown a 300x200 pixel image that matches the criteria I entered
 6. At your discretion, you may rename the "logo.svg" file to the file name of your choice.
 7. (Optional) Regarding future use, you may alter the prompted questions within the index.js to best suit your needs.
 8. (Optional) The SVG Logo Maker serves as a foundation so you are not limited to altering the files (as you have my permission) to create the best possible "logo.svg" file.
+
+## Built With
+- Saiyan Pride
+- Dynamic JavaScript
+- Node.js [Version 16.18.1](https://nodejs.org/en/blog/release/v16.18.1/)
+- Jest [Version 29.4.3](https://www.npmjs.com/package/jest)
+- Inquirer.js: [Version 8.2.4](https://www.npmjs.com/package/inquirer/v/8.2.4)
+- License Badge: [Shields.io](https://shields.io/)
+- Visual Studio Code: [Website](https://code.visualstudio.com/)
+
+MIT License
+
+Copyright (c) 2023 Yago Lira
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
