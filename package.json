@@ -1,0 +1,26 @@
+{
+  "name": "object-oriented-programming-challenge-svg-logo-maker",
+  "version": "1.0.0",
+  "description": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yago-pixel/Object-oriented-Programming-Challenge-SVG-Logo-Maker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yago-pixel/Object-oriented-Programming-Challenge-SVG-Logo-Maker/issues"
+  },
+  "homepage": "https://github.com/yago-pixel/Object-oriented-Programming-Challenge-SVG-Logo-Maker#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
