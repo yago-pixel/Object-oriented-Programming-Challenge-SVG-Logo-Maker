@@ -1,6 +1,5 @@
-const filesystem = require('./Users/yagol/OneDrive/Área de Trabalho/assignments/Object-oriented-Programming-Challenge-SVG-Logo-Maker/.git/')
 const inquirer = require("inquirer");
-const {Circle, Square, Triangle} = require("./lib/shapes");
+const {Circle, Square, Triangle} = require("./library/shapes");
 const { Svg } = require('./Svg');
 // Defines array of 'questions' using the 'inquirer' library with the following questions.
 // Each question is an object that specifies the properties of TEXT, TEXT COLOR, SHAPE COLOR, and Pixel Image.
