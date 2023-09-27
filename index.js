@@ -1,3 +1,4 @@
+const fs = require("fs");
 const inquirer = require("inquirer");
 const {Circle, Square, Triangle} = require("./library/sharpes");
 const { questions } = require("./questions");
@@ -5,7 +6,7 @@ const { Svg } = require('./Svg');
 // Function to write data to file
 function writeToFile(fileName, data) {
 	console.log("Writing [" + data + "] to file [" + fileName + "]")
-    filesystem.writeFile(fileName, data, function (err) {
+    fs.writeFile(fileName, data, function (err) {
         if (err) {
             return console.log(err);
         }
