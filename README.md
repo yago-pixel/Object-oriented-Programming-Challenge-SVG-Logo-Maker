@@ -36,6 +36,10 @@ WHEN I open the `logo.svg` file in a browser
 THEN I am shown a 300x200 pixel image that matches the criteria I entered
 ```
 
+## Walkthrough Video
+
+https://vscode.dev/github/yago-pixel/Object-oriented-Programming-Challenge-SVG-Logo-Maker/blob/main/logo2.svg%20-%20Object-oriented-Programming-Challenge-SVG-Logo-Maker%20-%20Visual%20Studio%20Code%202023-09-26%2023-41-08.mp4
+
 ## Screenshots:
 ### Figure 1. Command line application
 images\Screenshot 2023-09-24 024752.png
